@@ -33,7 +33,7 @@ public class Database extends Connection {
                 setClose += ",";
             }
             String value = (s.getValue() instanceof  String)?"'"+s.getValue()+"'":s.getValue().toString();
-            setClose += s.getKey()+"="+value;
+            setClose += "`"+s.getKey()+"`"+"="+value;
         }
         String updateQuery = setClose+" "+this.whereStatement();
         PreparedStatement updateStatement = this.getConnection().prepareStatement(updateQuery);
@@ -57,12 +57,12 @@ public class Database extends Connection {
                 values += ",";
             }
             values += (s.getValue() instanceof  String)?"'"+s.getValue()+"'":s.getValue().toString();
-            col += s.getKey();
+            col += "`"+s.getKey()+"`";
         }
         insertSql = insertSql.replace("$col", col);
         insertSql = insertSql.replace("$values",values);
         PreparedStatement insertStatment = this.getConnection().prepareStatement(insertSql);
-        if(insertStatment.execute()){
+        if(insertStatment.executeUpdate() > 0){
             return this;
         }
         return null;

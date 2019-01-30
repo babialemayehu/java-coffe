@@ -35,8 +35,8 @@ public class MealTime extends Database {
     private MealTime getMealTime(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         MealTime mealTime = new MealTime();
         mealTime.setId(result.getInt("id"));
-        mealTime.setFrom(result.getDate("from"));
-        mealTime.setTo(result.getDate("to"));
+        mealTime.setFrom(result.getTime("from"));
+        mealTime.setTo(result.getTime("to"));
         mealTime.setName(result.getString("name"));
         return mealTime;
     }

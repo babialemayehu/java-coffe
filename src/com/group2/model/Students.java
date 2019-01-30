@@ -17,6 +17,25 @@ public class Students extends Database {
     private int dorm_block;
     private int dorm_room;
     private int accadamic_year;
+    private String profile_pic;
+
+    public String getProfile_pic() {
+        return profile_pic;
+    }
+
+    public void setProfile_pic(String profile_pic) {
+        this.profile_pic = profile_pic;
+    }
+
+    public boolean getActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    private boolean active;
 
     public Students() throws SQLException, IOException, ClassNotFoundException {
         super("students");
@@ -37,14 +56,16 @@ public class Students extends Database {
     private Students getStudents(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         Students student = new Students();
         student.setId(result.getInt("id"));
-        student.setAccadamic_year(result.getInt("accadamic_year"));
-        student.setDepartment_id(result.getInt("deparment_id"));
+        student.setAccadamic_year(result.getInt("academic_year"));
+        student.setDepartment_id(result.getInt("department_id"));
         student.setDorm_block(result.getInt("dorm_block"));
         student.setDorm_room(result.getInt("dorm_room"));
         student.setFather_name(result.getString("father_name"));
         student.setFirst_name(result.getString("first_name"));
         student.setGfather_name(result.getString("gfather_name"));
         student.setReg_id(result.getString("reg_id"));
+        student.setProfile_pic(result.getString("profile_pic"));
+        student.setActive(result.getBoolean("active"));
         return student;
     }
 
