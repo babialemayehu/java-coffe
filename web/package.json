@@ -1,0 +1,46 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.7.5",
+    "angular-route": "^1.7.6",
+    "bootstrap": "^4.0.0",
+    "datatables.net-bs4": "^1.10.19",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.2",
+    "jquery-easing": "0.0.1",
+    "lodash": "^4.17.5",
+    "material-colors": "^1.2.6",
+    "material-icons": "^0.3.0",
+    "popper.js": "^1.12",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.15.2",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "scss": "^0.2.4",
+    "scss-compile": "^0.1.7",
+    "webpack": "^4.29.0"
+  }
+}
