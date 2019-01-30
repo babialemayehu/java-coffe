@@ -11419,6 +11419,9 @@ body.sidebar-toggled footer.sticky-footer {
 .form-group > label {
   font-size: .5rem; }
 
+#context-menu > li:hover {
+  background: rgba(0, 0, 0, 0.3); }
+
 .form-control.ng-touched.ng-invalid {
   border-color: #c4001d;
   -webkit-box-shadow: 0 0 0 0.2rem #ffcdcd;

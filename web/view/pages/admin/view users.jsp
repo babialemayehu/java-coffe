@@ -27,4 +27,7 @@
         </table>
     </section>
 </main>
+<%
+    request.getSession().setAttribute("user", null);
+%>
 <jsp:include page="../../templets/bottom.jsp"/>
