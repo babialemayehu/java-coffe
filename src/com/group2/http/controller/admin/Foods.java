@@ -20,15 +20,15 @@ public class Foods extends HttpServlet {
             HashMap<String, Object> userInputs = new Request(request).all();
             if(userInputs.get("id") == null){
                 if(new Food().insert(userInputs) != null){
-                    response.getWriter().write("insertied");
+                    response.sendRedirect("/foods?success_msg=New food is added");
                 }else{
-                    response.getWriter().write("faild to insetrt");
+                    response.sendRedirect("/err_msg=Fail to add new message");
                 }
             }else{
                 if(new Food().where("id", Integer.parseInt(userInputs.get("id").toString())).update(userInputs) != null){
-                    response.getWriter().write("updated");
+                    response.sendRedirect("/foods?success_msg=Food is successfuly updated");
                 }else{
-                    response.getWriter().write("faild to update");
+                    response.sendRedirect("/foods?success_msg=faild to update food");
                 }
             }
         } catch (SQLException e) {

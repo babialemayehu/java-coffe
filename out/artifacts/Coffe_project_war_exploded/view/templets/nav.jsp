@@ -10,7 +10,7 @@
 <%@ page import="com.group2.util.auth.Auth" %>
 <nav class="navbar navbar-expand navbar-dark bg-primary static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">Coffe</a>
+    <a class="navbar-brand mr-1" href="/dashboard">Coffe</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -56,7 +56,7 @@
 
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown" style="min-width: 18em; text-align: center; padding: 2em; ">
-                <h5><%= Auth.user(request).getFirst_name()%> <%= Auth.user(request).getFather_name()%> <%= Auth.user(request).getGfather_name()%></h5>
+                <h5 style="text-transform: capitalize;"><%= Auth.user(request).getFirst_name()%> <%= Auth.user(request).getFather_name()%> <%= Auth.user(request).getGfather_name()%></h5>
                 <h6 class="text-secondary">Worker ID: <%= Auth.user(request).getWorker_id()%></h6>
                 <div class="dropdown-divider"></div>
                 <form action="/logout" method="post">

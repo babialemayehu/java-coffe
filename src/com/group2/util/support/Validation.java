@@ -20,7 +20,7 @@ public class Validation {
                 requiredInputs += input+" ";
             }
         }
-        if(requiredInputs.equals("")){
+        if(!requiredInputs.equals("")){
             this.errors.put("required", requiredInputs);
             return true;
         }

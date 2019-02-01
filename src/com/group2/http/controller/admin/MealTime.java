@@ -19,15 +19,15 @@ public class MealTime extends HttpServlet {
         try {
             if(userInput.get("id") ==null) {
                 if (new com.group2.model.MealTime().insert(userInput) != null) {
-                    response.sendRedirect("/meal%20time?message=Successfully added new meal time");
+                    response.sendRedirect("/meal%20time?success_msg=Successfully added new meal time");
                 } else {
-                    response.getWriter().write("faild");
+                    response.sendRedirect("/meal%20time?err_msg=Faild to add new meal time");
                 }
             }else{
                 if (new com.group2.model.MealTime().where("id", Integer.parseInt(userInput.get("id").toString())).update(userInput) != null) {
-                    response.sendRedirect("/meal%20time?message=Successfully updated new meal time");
+                    response.sendRedirect("/meal%20time?success_msg=Successfully updated meal time");
                 } else {
-                    response.getWriter().write("faild");
+                    response.sendRedirect("/meal%20time?err_msg=Faild to update meal time");
                 }
             }
         } catch (SQLException e) {

@@ -24,7 +24,17 @@
         <div class="card" style="margin: auto">
             <div class="card-body">
                 <h5>Add meal</h5>
-                <form action="/foods" method="post" style="width: 100%" class="form">
+                <c:if test="${not empty param.success_msg}">
+                    <div class="alert alert-success" style="margin: auto; padding: 1em 4em;margin-bottom: 1em;">
+                        <i>${param.success_msg}</i>
+                    </div>
+                </c:if>
+                <c:if test="${not empty param.err_msg}">
+                    <div class="alert alert-danger" style="margin: auto; padding: 1em 4em;margin-bottom: 1em;">
+                        <i>${param.err_msg}</i>
+                    </div>
+                </c:if>
+                <form action="/foods" method="post" style="width: 100%" class="form form-inline">
                     <div class="container">
                         <div class="row">
                             <c:if test="${sessionScope.get('update') != null}">
@@ -32,15 +42,15 @@
                                     <input type="text" name="id" hidden value="${sessionScope.get('update').getId()}"/>
                                 </div>
                             </c:if>
-                            <div class="col-md-6">
+                            <div >
                                 <div class="form-group">
                                     <label for="name">Name</label>
                                     <input type="text" name="name" value="${sessionScope.get('update').getName()}" class="form-control" id="name"/>
                                 </div>
                             </div>
 
-                            <div class="col">
-                                <button class="btn-primary btn float-right" type="submit" style="margin-top: 1.1em">Add</button>
+                            <div>
+                                <button class="btn-primary btn float-right" type="submit">Add</button>
                             </div>
                         </div>
                     </div>

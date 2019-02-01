@@ -11,6 +11,17 @@ import java.util.Date;
 public class Backup  extends Database {
     private int id;
     private String sql_file;
+    private Date created_at;
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+    private String comment;
 
     public Date getCreated_at() {
         return created_at;
@@ -20,10 +31,10 @@ public class Backup  extends Database {
         this.created_at = created_at;
     }
 
-    private Date created_at;
+
 
     public Backup() throws SQLException, IOException, ClassNotFoundException {
-        super("backup");
+        super("coffe_util", "backup");
     }
 
     public ArrayList<Backup> get() throws SQLException, IOException, ClassNotFoundException {
@@ -39,6 +50,7 @@ public class Backup  extends Database {
     private Backup getBackup(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         Backup backup = new Backup();
         backup.setId(result.getInt("id"));
+        backup.setComment(result.getString("comment"));
         backup.setSql_file(result.getString("sql_file"));
         backup.setCreated_at(result.getDate("created_at"));
         return backup;

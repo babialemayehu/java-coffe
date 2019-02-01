@@ -15,7 +15,10 @@ public class Database extends Connection {
         super();
         this.tableName = tableName;
     }
-
+    public Database(String dbName, String tableName) throws SQLException, IOException, ClassNotFoundException {
+        super(dbName);
+        this.tableName = tableName;
+    }
     public void print(){
         System.out.println(this.whereClouse);
     }
@@ -183,4 +186,8 @@ public class Database extends Connection {
         return  result;
     }
 
+    public boolean sqlSource(String srcDir) throws SQLException {
+        PreparedStatement sql = this.getConnection().prepareStatement("source "+srcDir);
+        return (sql.executeUpdate() > 0);
+    }
 }

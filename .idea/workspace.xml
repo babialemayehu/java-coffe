@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9048eb83-fb46-4e0a-8a29-9726daa78a4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/group2/http/controller/ChangePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/group2/http/controller/tiker/SearchStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/group2/model/Backup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/assets/js/angular/controllers/SearchStudentController.contoller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/img/avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/view/pages/tiker/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/group2/util/support/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/Home.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/admin/DatabaseManagment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/admin/DatabaseManagment.class" afterDir="false" />
@@ -56,29 +50,22 @@
       <change beforePath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Where.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Where.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/security/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/security/Hash.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resource/db_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resource/db_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/MealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/MealTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Students_meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Students_meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Backup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Backup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/group2/util/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/util/database/Where.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/database/Where.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/util/security/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/security/Hash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/assets/js/angular/angular.components.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/assets/js/angular/angular.components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group2/util/support/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/support/Validation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view/templets/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/templets/officer/side nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/officer/side nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/templets/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/top.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,37 +120,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/pages/admin/database management.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="379">
+              <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/templets/admin/side nav.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/view/templets/nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="59" column="64" lean-forward="true" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+            <state relative-caret-position="621">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java">
+        <entry file="file://$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/templets/top.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="339">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -172,61 +165,48 @@
         <entry file="file://$PROJECT_DIR$/web/view/pages/admin/meal time.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="108" lean-forward="true" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+              <caret column="12" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/db_config.properties">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="207">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Connection.java">
+        <entry file="file://$PROJECT_DIR$/src/com/group2/util/support/Validation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="99" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="112" />
+            <state relative-caret-position="598">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Database.java">
+        <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <element signature="method#Database#0;class#Database#0" />
-                <element signature="n#!!block;n#print#0;n#Database#0" />
-                <element signature="method#update#0;class#Database#0" />
-                <element signature="method#insert#0;class#Database#0" />
-                <element signature="method#delete#0;class#Database#0" />
-                <element signature="method#_find#0;class#Database#0" />
-                <element signature="method#where#1;class#Database#0" />
-                <element signature="method#orWhere#0;class#Database#0" />
-                <element signature="method#orWhere#1;class#Database#0" />
-                <element signature="method#orWhere#2;class#Database#0" />
-                <element signature="method#orWhere#3;class#Database#0" />
-                <element signature="n#!!block;n#belongsToMany#0;n#Database#0" />
-                <element signature="method#hasOne#0;class#Database#0" />
-                <element signature="method#belongsTo#0;class#Database#0" />
-                <element signature="method#executeQuery#0;class#Database#0" />
-                <element signature="method#executeOneQuery#0;class#Database#0" />
-              </folding>
+            <state relative-caret-position="920">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/pages/admin/foods.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -258,17 +238,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/app/assets/js/angular/controllers/createUser.controller.js" />
-        <option value="$PROJECT_DIR$/src/com/group2/util/auth/Auth.java" />
-        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/CreateUser.java" />
-        <option value="$PROJECT_DIR$/web/app/assets/js/angular/controllers/registerStudent.js" />
-        <option value="$PROJECT_DIR$/web/app/assets/js/angular/controllers/registerStudent.controller.js" />
-        <option value="$PROJECT_DIR$/src/com/group2/http/controller/RegisterUser.java" />
         <option value="$PROJECT_DIR$/src/com/group2/util/support/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/officer/StudentsList.java" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/officer/StudentProfile.java" />
@@ -278,12 +252,8 @@
         <option value="$PROJECT_DIR$/web/view/pages/officer/student profile.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/admin/meal program.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealProgram.java" />
-        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" />
-        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" />
-        <option value="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/officer/students list.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/admin/create user.jsp" />
-        <option value="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/admin/user profile.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/admin/view users.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/util/security/Hash.java" />
@@ -302,18 +272,28 @@
         <option value="$PROJECT_DIR$/web/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/web/app/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/web/view/templets/top.jsp" />
-        <option value="$PROJECT_DIR$/web/view/templets/nav.jsp" />
-        <option value="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/Home.java" />
         <option value="$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/src/com/group2/model/Backup.java" />
         <option value="$PROJECT_DIR$/web/view/templets/officer/side nav.jsp" />
-        <option value="$PROJECT_DIR$/src/com/group2/util/database/Database.java" />
-        <option value="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" />
-        <option value="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" />
         <option value="$PROJECT_DIR$/resource/db_config.properties" />
+        <option value="$PROJECT_DIR$/src/com/group2/util/support/Log.java" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java" />
+        <option value="$PROJECT_DIR$/src/com/group2/model/Backup.java" />
+        <option value="$PROJECT_DIR$/src/com/group2/util/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" />
+        <option value="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" />
+        <option value="$PROJECT_DIR$/src/com/group2/model/Food.java" />
+        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" />
+        <option value="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" />
+        <option value="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" />
+        <option value="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" />
+        <option value="$PROJECT_DIR$/src/com/group2/http/controller/Login.java" />
+        <option value="$PROJECT_DIR$/web/view/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/group2/util/support/Validation.java" />
+        <option value="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" />
+        <option value="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/view/templets/nav.jsp" />
       </list>
     </option>
   </component>
@@ -349,20 +329,69 @@
             <path>
               <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="group2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="group2" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="group2" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="backup" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="templets" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +407,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549028927457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549046603558" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="/home/oem/Programs/commons-io-2.6/commons-io-2.6.jar!/" />
@@ -584,7 +613,7 @@
       <workItem from="1548858300443" duration="12225000" />
       <workItem from="1548925123380" duration="2247000" />
       <workItem from="1549014539938" duration="9439000" />
-      <workItem from="1549024917866" duration="3981000" />
+      <workItem from="1549024917866" duration="18880000" />
     </task>
     <task id="LOCAL-00001" summary="before barcode scaan and after meal time done">
       <created>1548889249075</created>
@@ -593,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548889249080</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="before barcode scaan and after meal time done">
+      <created>1549029106414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549029106415</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384629000" />
+    <option name="totallyTimeSpent" value="399528000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -610,24 +646,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-1" width="1600" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6985019" visible="true" weight="0.23423423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6984127" visible="true" weight="0.23423423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.40388006" side_tool="true" weight="0.22458172" />
-      <window_info id="Web" order="7" sideWeight="0.30149812" side_tool="true" visible="true" weight="0.23423423" />
+      <window_info id="Web" order="7" sideWeight="0.3015873" side_tool="true" visible="true" weight="0.23423423" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327654" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980695" weight="0.25688073" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980695" visible="true" weight="0.25688073" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772727" weight="0.3119266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32896462" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4980695" visible="true" weight="0.30013105" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980695" weight="0.30013105" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022727" side_tool="true" weight="0.3129139" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.327654" />
@@ -761,7 +798,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/group2/util/database/Database.java</url>
-          <line>124</line>
+          <line>127</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -851,62 +888,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/view/pages/officer/register student.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/foods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/officer/students list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="26" selection-start-line="26" selection-end-line="28" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/meal program.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/assets/js/angular/controllers/createUser.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/officer/RegisterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/util/support/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Where.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1026,13 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/group2/util/auth/Auth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1087,19 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="e#306#326#0#HTML" expanded="true" />
-            <element signature="e#773#793#0#HTML" expanded="true" />
-            <element signature="e#1197#1217#0#HTML" expanded="true" />
-            <element signature="e#1631#1651#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1128,39 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/model/Backup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/view/templets/officer/side nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/templets/admin/side nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1171,15 +1103,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/templets/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/storage/backup/2019-19-01--16:19:31-backup.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/db_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="7" selection-start-line="17" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/util/support/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/model/Backup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="320">
+          <caret line="191" column="5" lean-forward="true" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
           <folding>
-            <element signature="method#Database#0;class#Database#0" />
             <element signature="n#!!block;n#print#0;n#Database#0" />
             <element signature="method#update#0;class#Database#0" />
-            <element signature="method#insert#0;class#Database#0" />
             <element signature="method#delete#0;class#Database#0" />
             <element signature="method#_find#0;class#Database#0" />
             <element signature="method#where#1;class#Database#0" />
@@ -1196,64 +1181,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/util/database/Connection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="99" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="112" />
+        <state relative-caret-position="345">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/model/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/database management.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#295#314#0#HTML" expanded="true" />
+            <element signature="e#334#355#0#HTML" expanded="true" />
+            <element signature="e#431#461#0#HTML" expanded="true" />
+            <element signature="e#926#984#0#HTML" expanded="true" />
+            <element signature="e#1158#1216#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="45" column="70" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/foods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view/pages/admin/meal time.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="64" />
+          <caret column="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/templets/top.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/group2/util/support/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="598">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/database management.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="920">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/templets/admin/side nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view/templets/nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="64" lean-forward="true" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/storage/backup/2019-19-01--16:19:31-backup.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/db_config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="108" lean-forward="true" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+        <state relative-caret-position="621">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

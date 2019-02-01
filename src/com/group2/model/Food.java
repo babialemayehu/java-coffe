@@ -13,7 +13,7 @@ public class Food extends Database {
     private String name;
 
     public Food() throws SQLException, IOException, ClassNotFoundException {
-        super("foods");
+        super("food");
     }
 
     public ArrayList<Food> get() throws SQLException, IOException, ClassNotFoundException {
