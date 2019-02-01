@@ -18,42 +18,37 @@ public class Students extends Database {
     private int dorm_room;
     private int accadamic_year;
     private String profile_pic;
-
-    public String getProfile_pic() {
-        return profile_pic;
-    }
-
-    public void setProfile_pic(String profile_pic) {
-        this.profile_pic = profile_pic;
-    }
-
-    public boolean getActive() {
-        return active;
-    }
-
-    public void setActive(boolean active) {
-        this.active = active;
-    }
-
     private boolean active;
 
     public Students() throws SQLException, IOException, ClassNotFoundException {
         super("students");
     }
-
+    public Students find(int id) throws SQLException, IOException, ClassNotFoundException{
+        return this.getStudent(super._find(id));
+    }
+    public Students first() throws SQLException, IOException, ClassNotFoundException {
+        return this.getStudent(super._first());
+    }
     public ArrayList<Students> get() throws SQLException, IOException, ClassNotFoundException {
+        return getStudents(super._get());
+    }
+
+    public Meal meals() throws SQLException, IOException,ClassNotFoundException{
+        return (Meal)this._hasMany("meal");
+    }
+
+    private ArrayList<Students> getStudents(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         ArrayList<Students> students = new ArrayList<>();
-        ResultSet result = super._get();
+
         while(result.next()){
-            Students student = getStudents(result);
+            Students student = getStudent(result);
             students.add(student);
         }
         return students;
     }
-    public Students find(int id) throws SQLException, IOException, ClassNotFoundException{
-        return this.getStudents(super._find(id));
-    }
-    private Students getStudents(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
+
+
+    private Students getStudent(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         Students student = new Students();
         student.setId(result.getInt("id"));
         student.setAccadamic_year(result.getInt("academic_year"));
@@ -139,6 +134,22 @@ public class Students extends Database {
 
     public void setAccadamic_year(int accadamic_year) {
         this.accadamic_year = accadamic_year;
+    }
+
+    public String getProfile_pic() {
+        return profile_pic;
+    }
+
+    public void setProfile_pic(String profile_pic) {
+        this.profile_pic = profile_pic;
+    }
+
+    public boolean getActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 
 }

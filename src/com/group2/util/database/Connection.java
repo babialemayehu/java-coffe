@@ -18,7 +18,7 @@ public class Connection {
 
         Class.forName(this.config.getProperty("DB_DRIVER"));
         this.connection = DriverManager.getConnection(
-                this.config.getProperty("DB_URL"),
+                this.config.getProperty("DB_URL")+this.config.getProperty("DB_NAME"),
                 this.config.getProperty("DB_USERNAME"),
                 this.config.getProperty("DB_PASSWORD"));
     }

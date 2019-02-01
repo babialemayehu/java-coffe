@@ -49,5 +49,7 @@
         </div>
     </section>
 </main>
-
+<%
+    request.getSession().setAttribute("update", null);
+%>
 <jsp:include page="../../templets/bottom.jsp"/>

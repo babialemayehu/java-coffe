@@ -28,11 +28,15 @@ public class MealTime extends Database {
         return mealTimes;
     }
 
+    public MealTime first() throws SQLException, IOException, ClassNotFoundException {
+        return this.getMealTime(super._first());
+    }
     public MealTime find(int id) throws SQLException, IOException, ClassNotFoundException{
         return this.getMealTime(super._find(id));
     }
 
     private MealTime getMealTime(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
+        if(result == null) return null;
         MealTime mealTime = new MealTime();
         mealTime.setId(result.getInt("id"));
         mealTime.setFrom(result.getTime("from"));

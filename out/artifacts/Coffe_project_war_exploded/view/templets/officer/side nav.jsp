@@ -16,13 +16,8 @@
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="pagesDropdown" style="margin: 0px; color: white;">
                 <a class="dropdown-item" href="/view users">View students</a>
-                <a class="dropdown-item" href="/register student"">Register student</a>
+                <a class="dropdown-item" href="/register student">Register student</a>
             </div>
-        </li>
-        <li class="nav-item <%=(request.getServletPath().equals("/database mamagment")?"active":"")%>">
-            <a class="nav-link" href="/database mamagment">
-                <i class="fas fa-fw fa-database"></i>
-                <span>Database managment</span></a>
         </li>
 
     </ul>

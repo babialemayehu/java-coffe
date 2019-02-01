@@ -105,4 +105,7 @@
         </section>
     </main>
 </div>
+<%
+    request.getSession().setAttribute("user", null);
+%>
 <jsp:include page="../../templets/bottom.jsp"/>

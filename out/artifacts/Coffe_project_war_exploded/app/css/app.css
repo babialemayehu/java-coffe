@@ -11407,14 +11407,20 @@ body.sidebar-toggled footer.sticky-footer {
 .btn-round {
   border-radius: 50px; }
 
-.dropdown-menu .dropdown-item {
+.sidebar .dropdown-menu .dropdown-item {
   color: #cccccc;
   font-size: .9rem;
   padding: .4rem; }
 
-.dropdown-menu .dropdown-item:hover {
+.sidebar .dropdown-menu .dropdown-item:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.3); }
+
+.form-group > label {
+  font-size: 1rem; }
+
+#context-menu > li:hover {
+  background: rgba(0, 0, 0, 0.3); }
 
 .form-control.ng-touched.ng-invalid {
   border-color: #c4001d;
@@ -11423,4 +11429,10 @@ body.sidebar-toggled footer.sticky-footer {
   box-shadow: 0 0 0 0.2rem #ffcdcd; }
 
 .form-text.error {
-  color: #c4001d; }
+  color: #c4001d;
+  font-size: .5rem; }
+
+.form-loading {
+  cursor: wait;
+  opacity: .3;
+  pointer-events: none; }

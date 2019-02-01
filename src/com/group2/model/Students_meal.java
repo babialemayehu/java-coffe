@@ -14,7 +14,7 @@ public class Students_meal extends Database {
     private int meal_program_id;
 
     public Students_meal() throws SQLException, IOException, ClassNotFoundException {
-        super("students_meal");
+        super("student_meal");
     }
 
     public ArrayList<Students_meal> get() throws SQLException, IOException, ClassNotFoundException{
@@ -24,13 +24,13 @@ public class Students_meal extends Database {
             Students_meal students_meal = getStudents_meal(result);
             students_meals.add(students_meal);
         }
-        return students_meals;
+        return students_meals.isEmpty()?null:students_meals;
     }
 
     private Students_meal getStudents_meal(ResultSet result) throws SQLException, IOException, ClassNotFoundException {
         Students_meal students_meal = new Students_meal();
         students_meal.setId(result.getInt("id"));
-        students_meal.setMeal_program_id(result.getInt("meal_program_id"));
+        students_meal.setMeal_program_id(result.getInt("meal_time_id"));
         students_meal.setStudent_id(result.getInt("student_id"));
         students_meal.setUser_id(result.getInt("user_id"));
         return students_meal;

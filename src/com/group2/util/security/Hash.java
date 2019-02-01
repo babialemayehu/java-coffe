@@ -17,4 +17,10 @@ public class Hash {
         byte[] digestedByte = messageDigest.digest();
         return DatatypeConverter.printHexBinary(digestedByte).toLowerCase();
     }
+    public static String sha_1(String text) throws NoSuchAlgorithmException{
+        MessageDigest messageDigest = MessageDigest.getInstance("SHA-1");
+        messageDigest.update(text.getBytes());
+        byte[] digestedByte = messageDigest.digest();
+        return DatatypeConverter.printHexBinary(digestedByte).toLowerCase();
+    }
 }

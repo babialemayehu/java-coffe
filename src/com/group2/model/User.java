@@ -18,7 +18,10 @@ public class User extends Database{
     private String phone;
     private int reg_id;
     private boolean active;
+    private int setup;
 
+    public void setSetup(int setup){ this.setup = setup; }
+    public int getSetup(){ return this.setup; }
     public void setActive(boolean active){
         this.active = active;
     }
@@ -74,6 +77,7 @@ public class User extends Database{
         user.setRemember(result.getString("remember"));
         user.setRole_id(result.getInt("role_id"));
         user.setActive(result.getBoolean("active"));
+        user.setSetup(result.getInt("setup"));
         return user;
     }
 

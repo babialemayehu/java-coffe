@@ -24,4 +24,7 @@
         </table>
     </section>
 </main>
+<%
+    request.getSession().setAttribute("students", null);
+%>
 <jsp:include page="../../templets/bottom.jsp"/>

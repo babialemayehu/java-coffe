@@ -11,7 +11,6 @@ import java.util.Map;
 public class Database extends Connection {
     private String tableName;
     private String whereClouse = "";
-
     public Database(String tableName) throws SQLException, IOException, ClassNotFoundException {
         super();
         this.tableName = tableName;
@@ -88,22 +87,22 @@ public class Database extends Connection {
     }
 
     public Database where(String col, Where op, String val){
-        this.whereClouse += ((this.whereClouse.isEmpty())?"":" AND ")+ col + op.getOpperation() +"'"+val+"'";
+        this.whereClouse += ((this.whereClouse.isEmpty())?"":" AND ")+"`"+col+"`"+ op.getOpperation() +"'"+val+"'";
         return this;
     }
 
     public Database where(String col, Where op, Number val){
-        this.whereClouse += ((this.whereClouse.isEmpty())?"":" AND ")+col+ op.getOpperation() +val;
+        this.whereClouse += ((this.whereClouse.isEmpty())?"":" AND ")+"`"+col+"`"+ op.getOpperation() +val;
         return this;
     }
 
     public Database orWhere(String col, Where op, String val){
-        this.whereClouse += ((this.whereClouse.isEmpty())?"":" OR ")+col+ op.getOpperation() +"'"+val+"'";
+        this.whereClouse += ((this.whereClouse.isEmpty())?"":" OR ")+"`"+col+"`"+ op.getOpperation() +"'"+val+"'";
         return this;
     }
 
     public Database orWhere(String col, Where op, Number val){
-        this.whereClouse += ((this.whereClouse.isEmpty())?"":" OR ")+col+ op.getOpperation() +val;
+        this.whereClouse += ((this.whereClouse.isEmpty())?"":" OR ")+"`"+col+"`"+ op.getOpperation() +val;
         return this;
     }
 
@@ -147,10 +146,10 @@ public class Database extends Connection {
         return (this.whereClouse.isEmpty())? "": (" WHERE " + this.whereClouse);
     }
 
-    public ResultSet hasMany(String table) throws SQLException{
-        String query = "SELECT * FROM "+ table+ " WHERE "+table+"."+ table+"_id=" +
-                "( SELECT id FROM "+this.whereStatement() +")";
-        return this.executeQuery(query);
+    public Database _hasMany (String table) throws SQLException, IOException, ClassNotFoundException {
+        Database relationDb =new Database(table);
+        relationDb.where(this.tableName+"_id","( SELECT id FROM "+this.whereStatement() +")" );
+        return relationDb;
     }
 
     public ResultSet belongsToMany(){
