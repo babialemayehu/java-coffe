@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9048eb83-fb46-4e0a-8a29-9726daa78a4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/group2/util/support/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/Home.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/admin/DatabaseManagment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Coffe_project_war_exploded/WEB-INF/classes/com/group2/http/controller/admin/DatabaseManagment.class" afterDir="false" />
@@ -49,23 +48,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Where.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/database/Where.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/security/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coffe-project/com/group2/util/security/Hash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/db_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resource/db_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DBRestore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/DatabaseManagment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/Foods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Backup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Backup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/model/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/model/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/util/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/group2/util/support/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group2/util/support/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/database management.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/foods.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/pages/admin/meal time.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/templets/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/templets/nav.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,18 +102,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/group2/http/controller/admin/MealTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/view/templets/admin/side nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -140,14 +110,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/view/templets/nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="157">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-621">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -235,6 +214,7 @@
       <find>Ajax sent</find>
       <find>find</find>
       <find>id</find>
+      <find>C</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -273,7 +253,6 @@
         <option value="$PROJECT_DIR$/web/app/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/web/view/templets/top.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/http/controller/Home.java" />
-        <option value="$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/view/templets/officer/side nav.jsp" />
         <option value="$PROJECT_DIR$/src/com/group2/util/database/Connection.java" />
         <option value="$PROJECT_DIR$/resource/db_config.properties" />
@@ -294,6 +273,7 @@
         <option value="$PROJECT_DIR$/web/view/templets/admin/side nav.jsp" />
         <option value="$PROJECT_DIR$/web/view/pages/admin/dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/view/templets/nav.jsp" />
+        <option value="$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp" />
       </list>
     </option>
   </component>
@@ -383,6 +363,14 @@
               <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="officer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coffe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coffe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="templets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -407,7 +395,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549046744791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549047300252" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="/home/oem/Programs/commons-io-2.6/commons-io-2.6.jar!/" />
@@ -613,7 +601,7 @@
       <workItem from="1548858300443" duration="12225000" />
       <workItem from="1548925123380" duration="2247000" />
       <workItem from="1549014539938" duration="9439000" />
-      <workItem from="1549024917866" duration="18880000" />
+      <workItem from="1549024917866" duration="19464000" />
     </task>
     <task id="LOCAL-00001" summary="before barcode scaan and after meal time done">
       <created>1548889249075</created>
@@ -629,11 +617,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549029106415</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before barcode scaan and after meal time done">
+      <created>1549046700541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549046700541</updated>
+    </task>
+    <task id="LOCAL-00004" summary="before barcode scaan and after meal time done">
+      <created>1549046767628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549046767628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399528000" />
+    <option name="totallyTimeSpent" value="400112000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -646,25 +648,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-1" width="1600" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6984127" visible="true" weight="0.23423423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6985019" visible="true" weight="0.23423423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.40388006" side_tool="true" weight="0.22458172" />
-      <window_info id="Web" order="7" sideWeight="0.3015873" side_tool="true" visible="true" weight="0.23423423" />
+      <window_info id="Web" order="7" sideWeight="0.30149812" side_tool="true" visible="true" weight="0.23423423" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327654" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980695" visible="true" weight="0.25688073" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980695" weight="0.25688073" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49772727" weight="0.3119266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32896462" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4980695" weight="0.30013105" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4980695" visible="true" weight="0.30013105" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5022727" side_tool="true" weight="0.3129139" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.327654" />
@@ -1068,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/group2/model/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1287,11 +1281,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view/templets/nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="157">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/pages/officer/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
